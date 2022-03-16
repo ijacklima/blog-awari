@@ -1,55 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Blog Awari</title>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="shortcut icon" href="#" />
-    <title>Blog Awari - tudo sobre HTML</title>
+    <meta name="description" content="Tudo sobre tecnologia" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="top-bar">
-      <h1>Blog Awari</h1>
+      <div class="top-bar-container">
+        <h1>Blog Awari</h1>
+        <a>Login</a>
+      </div>
     </header>
     <nav class="navigation">
-      <ul class="menu">
-        <li class="menu-item"><a href="index.html">Home</a></li>
-        <li class="menu-item">
-          <a href="tudo-sobre-css.html">Tudo sobre CSS</a>
-        </li>
-        <li class="menu-item">
-          <a href="tudo-sobre-js.html">Tudo sobre JS</a>
-        </li>
-      </ul>
+      <div class="navigation-container">
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="tudo-sobre-html.html">Tudo sobre HTML</a>
+          </li>
+          <li class="menu-item">
+            <a href="tudo-sobre-css.html">Tudo sobre CSS</a>
+          </li>
+          <li class="menu-item">
+            <a href="tudo-sobre-js.html">Tudo sobre JavaScript</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <article>
-      <header>
-        <h1>Tudo sobre HTML</h1>
-        <p>Publicado em: 09/03/2022</p>
-      </header>
-      <h2>O que é HTML</h2>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
-        aspernatur enim magnam doloremque accusamus porro sed nostrum excepturi
-        non, praesentium asperiores hic illum sequi, consequatur debitis?
-        Voluptas vitae esse delectus! Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Maxime laudantium incidunt officiis itaque, sint quod
-        non eaque dolores iure eius voluptates numquam eligendi nam ad, culpa
-        quasi sed sequi quibusdam!
-      </p>
-      <section id="comments"></section>
-      <h2>Comentários</h2>
-      <article>
-        <head>
-          <h3>Enviado por: Ana</h3>
-          <p>09/03/2022</p>
-        </head>
-        <p>Muito bom!</p>
-      </article>
-    </article>
-    <footer>
-      <p>Copyright © 2022 Todos os direitos reservados.</p>
+    <main class="main">
+      <div class="main-container">
+        <h2>Bem vindxs ao Blog!</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+          sint tenetur modi aspernatur natus assumenda inventore animi non
+          quidem praesentium, quod quas nisi architecto nostrum sequi deserunt!
+          Aliquid, porro dolore!
+        </p>
+        <div class="cards">
+          <div class="card">
+            <h3>Tudo sobre HTML</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
+              iure dolorem perferendis rem facere eum nihil sunt nostrum est hic
+              architecto, sapiente, doloremque quidem deserunt debitis, sequi
+              quam illo esse.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Tudo sobre CSS</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
+              iure dolorem perferendis rem facere eum nihil sunt nostrum est hic
+              architecto, sapiente, doloremque quidem deserunt debitis, sequi
+              quam illo esse.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Tudo sobre JS</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
+              iure dolorem perferendis rem facere eum nihil sunt nostrum est hic
+              architecto, sapiente, doloremque quidem deserunt debitis, sequi
+              quam illo esse.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <p>Copyright © 2022 Todos os direitos reservados.</p>
+      </div>
     </footer>
   </body>
 </html>
